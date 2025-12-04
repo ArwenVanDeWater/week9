@@ -1,0 +1,101 @@
+/* =====================================
+   Projectdocs – Lost in Tra(i)nslation
+   Stylesheet (enkel basis typografie & ruimte)
+   ===================================== */
+
+/* Reset standaard marges en padding */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Algemene opmaak van de pagina */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f7f7f7; /* zachte neutrale achtergrond */
+}
+
+/* Container styling (centreren en leesbreedte) */
+.container {
+  font-family: 'Roboto';
+  max-width: 65vw;        /* container is 65% van de vensterbreedte */
+  margin-left: auto;      /* centreren */
+  margin-right: auto;     /* centreren */
+  margin-top: 3rem;       /* ruimte boven */
+  margin-bottom: 3rem;    /* ruimte onder */
+  padding: 2rem 1.5rem;   /* binnenmarges links/rechts */
+  background-color: #ffffff; /* witte achtergrond voor tekstblok */
+  border-radius: 8px;     /* zachte afgeronde hoeken */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* subtiele schaduw */
+}
+
+/* Koppen */
+h1, h2, h3 {
+  color: #111;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragrafen */
+p {
+  margin-bottom: 1rem;
+}
+
+/* Navigatie */
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav a:hover,
+.nav a:focus {
+  color: #004999;
+  text-decoration: underline;
+}
+
+/* Links in tekst */
+a {
+  color: #0066cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Kleine details */
+ul {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+code {
+  background-color: #efefef;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-family: monospace;
+}
